@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="24 solution checker">
+    <meta name="author" content="Richard Strutt">
+    <title>24 Solution Checker</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="site-wrapper">
+        <div class="site-wrapper-inner">
+            <div class="cover-container">
+                <div class="inner cover">
+                    <h1 class="cover-heading">24 solution checker</h1>
+                    <p class="lead">Enter 4 numbers anywhere between 1 to 12. Using all four numbers without repeating, the computer will find and calculate one solution to get to 24 with any of the operaters (+ - x ÷)</p>
+                    <p class="lead">Example: 5 5 5 1<br> (5 - (1 ÷ 5)) x 5 = 24</p>
+                    <input type="text" id="i1" class="form-control" maxlength="2" />
+                    <input type="text" id="i2" class="form-control" maxlength="2" />
+                    <input type="text" id="i3" class="form-control" maxlength="2" />
+                    <input type="text" id="i4" class="form-control" maxlength="2" />
+                    <p class="lead">
+                        <button href="#" class="btn btn-lg btn-default" onclick="solve24()">Enter</button>
+                    </p>
+                    <p class="lead">Solution</p>
+                    <p class="lead" id=p>Enter to find a solution</p>
+                    <p class="lead-min" id=p2></p>
+                </div>
+                <div class=" mastfoot ">
+                    <div class="inner ">
+                        <p>A 24 solution looped algorithm by <a href="https://github.com/richardstrutt">Richard Strutt</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="solve.min.js "></script>
+</body>
+
+</html>
